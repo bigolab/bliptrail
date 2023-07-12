@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Blip Chat Test</h1>
+<p>Esta pagina muestra el uso de Blip Cat en un sitio</p>
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+                .withAppKey('c29mdGNpOmFhM2I0NGU0LTIxYTUtNGJkYy04MmQ2LTc5YzU2MWYxYTczOQ==')
+                .withButton({"color":"#0096fa","icon":""})
+                .withCustomCommonUrl('https://alberto-corona-3ekzs.chat.blip.ai/')
+                .build();
+        }
+    })();
+</script>
+            
+</body>
+</html>
